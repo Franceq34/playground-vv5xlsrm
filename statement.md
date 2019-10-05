@@ -31,6 +31,23 @@ print(a+c)
     
 ```
 
+?[Quel est le résultat ?]
+-[ ] 1
+-[ ] 2
+-[X] 3
+-[ ] 4
+
+```python runnable
+
+a = 1
+b = 2
+c = a + b
+a = b
+c = c - a
+print(a+c)
+    
+```
+
 ?[Quel message va s'afficher ?]
 -[ ] Bonjour Hello
 -[ ] Hello Bonjour
