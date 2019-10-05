@@ -1,5 +1,36 @@
 # Variables & Assignation
 
+?[Quel est le résultat ?]
+-[ ] 1
+-[ ] 2
+-[ ] 3
+-[X] 4
+
+```python runnable
+
+a = 1
+b = 2
+c = 3
+print(a+c)
+    
+```
+
+?[Quel est le résultat ?]
+-[ ] 1
+-[X] 2
+-[ ] 3
+-[ ] 4
+
+```python runnable
+
+a = 1
+b = 2
+c = a
+b = a
+print(a+c)
+    
+```
+
 ?[Quel message va s'afficher ?]
 -[ ] Bonjour Hello
 -[ ] Hello Bonjour
@@ -10,6 +41,7 @@
 
 def message():
     print("Bonjour")
+    
 print("Hello")
     
 ```
