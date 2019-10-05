@@ -14,7 +14,9 @@ c = 3
 print(a+c)
     
 ```
-======
+
+
+
 
 ?[Quel est le résultat ?]
 -[ ] 1
@@ -32,7 +34,6 @@ print(a+c)
     
 ```
 
-======
 
 ?[Quel est le résultat ?]
 -[ ] 1
@@ -50,7 +51,6 @@ c = c - a
 print(a+c)
     
 ```
-======
 
 ?[Quel message va s'afficher ?]
 -[ ] Bonjour Hello
@@ -66,7 +66,6 @@ def message():
 print("Hello")
     
 ```
-======
 
 Quel message va s'afficher ?
 
@@ -78,7 +77,6 @@ print("Hello " + msg)
     
 ```
 
-======
 
 ?[Quel est le résultat ?]
 -[ ] 1
