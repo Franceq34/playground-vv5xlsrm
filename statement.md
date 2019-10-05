@@ -98,6 +98,22 @@ print(somme(a, b))
     
 ```
 
+?[Quel est le résultat ?]
+-[ ] 1
+-[ ] 2
+-[ ] 3
+
+```python runnable
+
+a = 1
+b = "2"
+
+print(a + b)
+    
+```
+
+Comment régler ça ?
+
 # Listes
 
 - Créer une liste vide
@@ -184,5 +200,12 @@ Puis, par compréhension de liste, compléter le programme afin qu'il crée une 
 ```
 
 # 
+
+Exercice 6 / 7 / 8 de la dernière feuille d'exercices
+
+```python runnable
+
+
+```
 
 
