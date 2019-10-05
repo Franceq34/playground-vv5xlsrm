@@ -14,6 +14,7 @@ c = 3
 print(a+c)
     
 ```
+======
 
 ?[Quel est le résultat ?]
 -[ ] 1
@@ -31,6 +32,8 @@ print(a+c)
     
 ```
 
+======
+
 ?[Quel est le résultat ?]
 -[ ] 1
 -[ ] 2
@@ -47,6 +50,7 @@ c = c - a
 print(a+c)
     
 ```
+======
 
 ?[Quel message va s'afficher ?]
 -[ ] Bonjour Hello
@@ -62,6 +66,7 @@ def message():
 print("Hello")
     
 ```
+======
 
 Quel message va s'afficher ?
 
@@ -72,6 +77,8 @@ msg = "c'est moi !"
 print("Hello " + msg)
     
 ```
+
+======
 
 ?[Quel est le résultat ?]
 -[ ] 1
@@ -145,6 +152,15 @@ print(list)
 FOR
 
 Qu'affiche ce code ?
+
+```python runnable
+
+for i in range(1,3) :
+    print(i)
+
+```
+
+Qu'affiche ce code ?
 (indice : str() transforme son paramètre en chaine de caractère pour permettre la concaténation)
 
 ```python runnable
@@ -155,4 +171,14 @@ for i in range(1,4) :
 print("Zéro!")
 
 ```
+
+En utilisant une boucle for écrire un programme qui crée la liste des 10 premiers entiers strictements positifs.
+Puis, par compréhension de liste, compléter le programme afin qu'il crée une liste de 10 nombres entiers aléatoires compris entre 1 et 6 inclus.
+(indice : module random)
+
+```python runnable
+
+
+```
+
 
