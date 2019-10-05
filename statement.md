@@ -52,6 +52,7 @@ c = c - a
 print(a+c)
     
 ```
+# 
 
 ?[Quel message va s'afficher ?]
 -[ ] Bonjour Hello
@@ -67,6 +68,7 @@ def message():
 print("Hello")
     
 ```
+# 
 
 Quel message va s'afficher ?
 
@@ -77,7 +79,7 @@ msg = "c'est moi !"
 print("Hello " + msg)
     
 ```
-
+# 
 
 ?[Quel est le résultat ?]
 -[ ] 1
@@ -106,6 +108,7 @@ print(somme(a, b))
 
 
 ```
+# 
 
 - Créer une liste vide
 - Ajouter deux éléments à cette liste
@@ -115,6 +118,7 @@ print(somme(a, b))
 
 
 ```
+# 
 
 - Créer une liste de 3 éléments
 - Afficher le deuxième et troisième élément
@@ -124,9 +128,7 @@ print(somme(a, b))
 
 ```
 
-```
-
-Listes en compréhension
+# Listes en compréhension
 
 
 ```python runnable
@@ -135,6 +137,7 @@ list=[x for x in range(10)]
 print(list)
 
 ```
+# 
 
 - Créer une liste de 10 éléments
 - Afficher sa taille
@@ -146,9 +149,8 @@ print(list)
 
 ```
 
-#Boucles
+#Boucles For
 
-FOR
 
 Qu'affiche ce code ?
 
@@ -170,6 +172,7 @@ for i in range(1,4) :
 print("Zéro!")
 
 ```
+# 
 
 En utilisant une boucle for écrire un programme qui crée la liste des 10 premiers entiers strictements positifs.
 Puis, par compréhension de liste, compléter le programme afin qu'il crée une liste de 10 nombres entiers aléatoires compris entre 1 et 6 inclus.
@@ -179,5 +182,7 @@ Puis, par compréhension de liste, compléter le programme afin qu'il crée une 
 
 
 ```
+
+# 
 
 
