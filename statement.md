@@ -1,11 +1,37 @@
-title: Put your playground title here
-plan:
-  - title: Part 1
-    statement: markdowns/welcome.md
-  - title: Part 2
-    statement: markdowns/part2.md
+# Variables & Assignation
 
-# Cours : Listes
+?[Quel message va s'afficher ?]
+-[ ] Bonjour Hello
+-[ ] Hello Bonjour
+-[X] Hello
+-[ ] Bonjour
+
+```python runnable
+
+def message():
+    print("Bonjour")
+print("Hello")
+    
+```
+
+?[Quel est le résultat ?]
+-[ ] 1
+-[ ] 2
+-[X] 3
+
+```python runnable
+
+a = 1
+b = 2
+
+def somme(a, b):
+    return a+b
+
+print(somme(a, b))
+    
+```
+
+# Listes
 
 - Créer une liste vide
 - Ajouter trois éléments à cette liste
