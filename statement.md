@@ -15,7 +15,7 @@ print(a+c)
     
 ```
 
-
+# 
 
 
 ?[Quel est le résultat ?]
@@ -34,6 +34,7 @@ print(a+c)
     
 ```
 
+# 
 
 ?[Quel est le résultat ?]
 -[ ] 1
