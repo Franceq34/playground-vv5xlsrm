@@ -63,6 +63,16 @@ print("Hello")
     
 ```
 
+Quel message va s'afficher ?
+
+```python runnable
+
+msg = "c'est moi !"
+
+print("Hello " + msg)
+    
+```
+
 ?[Quel est le résultat ?]
 -[ ] 1
 -[ ] 2
@@ -105,6 +115,44 @@ print(somme(a, b))
 (indice : afficher à partir du deuxième élément)
 
 ```python runnable
+
+```
+
+```
+
+Listes en compréhension
+
+
+```python runnable
+
+list=[x for x in range(10)]
+print(list)
+
+```
+
+- Créer une liste de 10 éléments
+- Afficher sa taille
+- retourner la liste
+
+
+```python runnable
+
+
+```
+
+#Boucles
+
+FOR
+
+Qu'affiche ce code ?
+(indice : str() transforme son paramètre en chaine de caractère pour permettre la concaténation)
+
+```python runnable
+
+for i in range(1,4) :
+    print("Et "+str(i)+"!")
+    
+print("Zéro!")
 
 ```
 
